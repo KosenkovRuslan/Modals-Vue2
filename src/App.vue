@@ -12,7 +12,7 @@
           <modal
             title="First Modal"
             v-show="modalFirst"
-            @close="modalFirst = !modalFirst"
+            @close="modalFirst = false"
           >
             <div slot="body">
               <p>
